@@ -8,7 +8,6 @@ const appRoutes: Routes = [
     {path: 'blog', loadChildren: './features/blog/blog.module#BlogModule'},
     {path: 'contact', loadChildren: './features/contact/contact.module#ContactModule'},
     {path: 'about', loadChildren: './features/about/about.module#AboutModule'}
-    // {path: 'product/:id', loadChildren: './features/product/product.module#ProductModule'},
 ];
 
 @NgModule({
