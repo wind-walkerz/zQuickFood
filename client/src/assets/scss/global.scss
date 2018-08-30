@@ -2,11 +2,14 @@
 @import "grid";
 @import "variables";
 
+html {
+  font-size: 62.5%;
+}
 
 body {
   background-color: white;
-  font-size: 62.5%;
-  font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #555;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif
 }
 ul {
   list-style: none;
@@ -20,4 +23,10 @@ a {
   &:hover {
     cursor: pointer;
   }
+}
+
+h4 {
+  font-size: 1.8em;
+  color: #333;
+  font-weight: 500;
 }

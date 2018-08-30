@@ -81,16 +81,7 @@
     "@angular-devkit/core" "0.7.5"
     rxjs "^6.0.0"
 
-"@angular-devkit/core@0.6.8", "@angular-devkit/core@^0.6.8":
-  version "0.6.8"
-  resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-0.6.8.tgz#3b09d97bd2588f0091df11921f7ed772431806aa"
-  dependencies:
-    ajv "~6.4.0"
-    chokidar "^2.0.3"
-    rxjs "^6.0.0"
-    source-map "^0.5.6"
-
-"@angular-devkit/core@0.7.5":
+"@angular-devkit/core@0.7.5", "@angular-devkit/core@^0.7.5":
   version "0.7.5"
   resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-0.7.5.tgz#49f7854ccadf3ddda8d0ea4359543a1cbdc6854d"
   dependencies:
@@ -99,18 +90,11 @@
     rxjs "^6.0.0"
     source-map "^0.5.6"
 
-"@angular-devkit/schematics@0.7.5":
+"@angular-devkit/schematics@0.7.5", "@angular-devkit/schematics@^0.7.5":
   version "0.7.5"
   resolved "https://registry.yarnpkg.com/@angular-devkit/schematics/-/schematics-0.7.5.tgz#f46b121f29cb40ad6095285d27a515114a56c5d6"
   dependencies:
     "@angular-devkit/core" "0.7.5"
-    rxjs "^6.0.0"
-
-"@angular-devkit/schematics@^0.6.8":
-  version "0.6.8"
-  resolved "https://registry.yarnpkg.com/@angular-devkit/schematics/-/schematics-0.6.8.tgz#6360a0271f1f422862bf932a03b3741e76ac5ff0"
-  dependencies:
-    "@angular-devkit/core" "0.6.8"
     rxjs "^6.0.0"
 
 "@angular/animations@^6.0.3":
@@ -217,15 +201,15 @@
   dependencies:
     "@fortawesome/fontawesome-common-types" "^0.2.2"
 
-"@glacia-schematics/angular@^1.6.1":
-  version "1.6.1"
-  resolved "https://registry.yarnpkg.com/@glacia-schematics/angular/-/angular-1.6.1.tgz#b9720ea1d4ec0654d4d8df4f99acc13ad0522cc8"
+"@glacia-schematics/angular@^1.7.2":
+  version "1.7.2"
+  resolved "https://registry.yarnpkg.com/@glacia-schematics/angular/-/angular-1.7.2.tgz#b41b2af6f8ba5ea7ef853c8256c6ae728c7d6616"
   dependencies:
-    "@angular-devkit/core" "^0.6.8"
-    "@angular-devkit/schematics" "^0.6.8"
+    "@angular-devkit/core" "^0.7.5"
+    "@angular-devkit/schematics" "^0.7.5"
     "@types/jasmine" "^2.6.0"
-    "@types/node" "^8.0.31"
-    jasmine "^2.8.0"
+    "@types/node" "^10.9.3"
+    jasmine "^3.2.0"
     typescript "^2.5.2"
 
 "@ngtools/webpack@6.1.5":
@@ -276,13 +260,13 @@
   dependencies:
     "@types/jasmine" "*"
 
+"@types/node@^10.9.3":
+  version "10.9.3"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.9.3.tgz#85f288502503ade0b3bfc049fe1777b05d0327d5"
+
 "@types/node@^6.0.46":
   version "6.0.116"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-6.0.116.tgz#2f9cd62b4ecc4927e3942e2655c182eecf5b45f1"
-
-"@types/node@^8.0.31":
-  version "8.10.28"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-8.10.28.tgz#03bf70dd7f1de7826251331ce57beddf7f9dd253"
 
 "@types/node@~10.9.2":
   version "10.9.2"
@@ -3317,11 +3301,7 @@ jasmine-core@~2.8.0:
   version "2.8.0"
   resolved "https://registry.yarnpkg.com/jasmine-core/-/jasmine-core-2.8.0.tgz#bcc979ae1f9fd05701e45e52e65d3a5d63f1a24e"
 
-jasmine-core@~2.99.0:
-  version "2.99.1"
-  resolved "https://registry.yarnpkg.com/jasmine-core/-/jasmine-core-2.99.1.tgz#e6400df1e6b56e130b61c4bcd093daa7f6e8ca15"
-
-jasmine-core@~3.2.1:
+jasmine-core@~3.2.0, jasmine-core@~3.2.1:
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/jasmine-core/-/jasmine-core-3.2.1.tgz#8e4ff5b861603ee83343f2b49eee6a0ffe9650ce"
 
@@ -3345,13 +3325,12 @@ jasmine@2.8.0:
     glob "^7.0.6"
     jasmine-core "~2.8.0"
 
-jasmine@^2.8.0:
-  version "2.99.0"
-  resolved "https://registry.yarnpkg.com/jasmine/-/jasmine-2.99.0.tgz#8ca72d102e639b867c6489856e0e18a9c7aa42b7"
+jasmine@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/jasmine/-/jasmine-3.2.0.tgz#b3a018454781805650e46578803d08e7cfdd7b3d"
   dependencies:
-    exit "^0.1.2"
     glob "^7.0.6"
-    jasmine-core "~2.99.0"
+    jasmine-core "~3.2.0"
 
 jasminewd2@^2.1.0:
   version "2.2.0"

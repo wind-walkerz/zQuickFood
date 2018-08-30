@@ -1,0 +1,9 @@
+.container
+    .title Choose from Most Popular
+    .sub_title Cum doctus civibus efficiantur in imperdiet deterruisset.
+
+    #restaurant_list
+        .restaurant(*ngFor="let restaurant of restaurant_list")
+            .name {{restaurant?.name}}
+            .logo
+                Image([src]="restaurant.logo")

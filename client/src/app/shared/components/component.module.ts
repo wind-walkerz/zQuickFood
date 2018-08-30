@@ -1,15 +1,13 @@
 import {NgModule} from '@angular/core';
-import {CommonModule} from '@angular/common';
-import {ImageComponent} from "./Image/Image";
-import {RouterModule} from "@angular/router";
+
+import {CommonComponentModule} from './common/common.module';
 
 @NgModule({
-    declarations: [
-        ImageComponent
+    imports: [
+        CommonComponentModule
     ],
-    imports: [RouterModule],
     exports: [
-        ImageComponent
+        CommonComponentModule
     ]
 })
 export class ComponentModule {

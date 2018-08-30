@@ -1,14 +1,15 @@
 @import "variables";
 
 .container-fluid {
-    height: 61em;
+    max-height: 95em;
     position: relative;
-    z-index: -1;
-    align-items: flex-end;
+    overflow: hidden;
+    //z-index: -1;
     .intro_video {
         object-fit: cover;
         width: 100%;
-        height: 100%;
+        height: auto;
+
         z-index: -1;
     }
 }
@@ -18,25 +19,47 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100%;
-    width: 100%;
+    justify-self: center;
     position: absolute;
+    margin-top: 18%;
     .heading {
 
         font-size: 6em;
         font-weight: 300;
-        margin-top: 3em;
     }
     .sub_heading {
         font-size: 1.5em;
-        margin-top: 1em 0;
+        margin: 1.5em 0;
     }
 }
 
 #statistic {
-    background-color: red;
+    background-color: rgba(0, 0, 0, 0.25);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 6.4em;
     width: 100%;
     position: absolute;
     bottom: 0;
+    .box {
+        border-right: 1px dotted white;
+        display: flex;
+        align-items: center;
+        line-height: 0;
+        margin: 0;
+        padding: 0 2em;
+        &:last-child {
+            border: none;
+        }
+        .number {
+            font-size: 2.4em;
+            font-weight: 600;
+            margin-right: 0.5em;
+        }
+        p {
+            font-size: 1.8em;
+        }
+    }
 }

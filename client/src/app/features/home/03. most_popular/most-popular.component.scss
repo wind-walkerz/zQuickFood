@@ -1,0 +1,23 @@
+.container {
+    justify-items: center;
+    padding: 6rem 0;
+    .title {
+        font-size: 4.6em;
+        font-weight: 300;
+    }
+    .sub_title {
+        color: #555;
+        font-size: 1.8em;
+
+    }
+}
+
+#restaurant_list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5rem;
+    width: 100%;
+    .restaurant {
+        border: 1px solid #ededed;
+    }
+}
