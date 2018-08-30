@@ -4,6 +4,11 @@
 
     #restaurant_list
         .restaurant(*ngFor="let restaurant of restaurant_list")
-            .name {{restaurant?.name}}
             .logo
                 Image([src]="restaurant.logo")
+            .content
+                .name {{restaurant?.name}}
+                .type {{restaurant?.type}}
+                .location {{restaurant?.location}}
+                .opening {{restaurant?.opening}}
+

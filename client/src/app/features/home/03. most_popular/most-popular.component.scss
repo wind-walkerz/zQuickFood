@@ -19,5 +19,37 @@
     width: 100%;
     .restaurant {
         border: 1px solid #ededed;
+        display: flex;
+        min-height: 15.2rem;
+        padding: 2rem;
+        margin-top: 6rem;
+        .logo {
+            border: 1px solid #ededed;
+            border-radius: 0.2rem;
+            padding: 0.8rem;
+            width: 11rem;
+            height: 11rem;
+        }
+        .content {
+            width: 80%;
+            margin-left: 2rem;
+            .name {
+                font-size: 2.4em;
+            }
+            .type {
+                font-size: 1.2rem;
+                font-style: italic;
+                color: #777;
+                margin: 0.7rem  0 1.2rem 0;
+            }
+            .location {
+                color: #333;
+                font-size: 1.3em;
+            }
+            .opening {
+                color: #C33;
+                font-size: 1.3em;
+            }
+        }
     }
 }
