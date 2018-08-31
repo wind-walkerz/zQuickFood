@@ -1,12 +1,11 @@
 import {Component, OnInit} from '@angular/core';
 
 @Component({
-    selector: 'most-popular',
-    templateUrl: './most-popular.component.pug',
-    styleUrls: ['./most-popular.component.scss']
+    selector: 'section3',
+    templateUrl: './section3.component.pug',
+    styleUrls: ['./section3.component.scss']
 })
-export class MostPopularComponent implements OnInit {
-
+export class Section3Component implements OnInit {
     restaurant_list = [
         {
             name: 'Taco Mexican',

@@ -1,0 +1,22 @@
+.container-fluid {
+    background: url("https://res.cloudinary.com/hieu/image/upload/v1535687464/zQuickFood/bg_office.jpg") no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 47rem;
+    width: 100%;
+
+    h1 {
+        margin: 0 0 10px;
+        font-size: 6rem;
+        font-weight: 300;
+        font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    }
+    h3 {
+        font-size: 1.6rem;
+        font-weight: 300;
+    }
+}
