@@ -1,0 +1,26 @@
+@import "variables";
+
+.container-fluid {
+    background: url("https://res.cloudinary.com/hieu/image/upload/v1535707646/zQuickFood/backgrounds/sub_header_short.jpg") no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    overflow: hidden;
+    position: relative;
+    height: 35rem;
+    width: 100%;
+    .heading {
+        font-size: 6rem;
+        font-weight: 300;
+
+    }
+    .sub_heading {
+        font-size: 1.5em;
+        margin: 1.5em 0;
+    }
+
+}
